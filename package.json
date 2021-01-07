@@ -1,0 +1,20 @@
+{
+  "name": "drees4win",
+  "version": "1.0.0",
+  "description": "It's an ecommerce app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mahesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "reload": "^2.2.2"
+  }
+}

@@ -1,7 +1,7 @@
 var mysql = require('mysql');
 var connection = mysql.createConnection({
   host     : '172.16.224.3',
-  port     : '3309',
+  port     : '3306',
   user     : 'root',
   password : 'demogcp',
   database : 'jsp_eCommerce'

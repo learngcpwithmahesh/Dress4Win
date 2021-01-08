@@ -18,7 +18,6 @@ Credits & Source from: https://github.com/sendmail2krrish/eCommerce-site-using-N
 10. Create the table schema using <b> mysql -h 127.0.0.1 -u root -p < ecommerce.sql </b> <br/>
  
 ### Launching app-server
-
 1. Provision a Google Compute Engine (GCE) with below startup script <br/>
 <b>
 apt update <br/>

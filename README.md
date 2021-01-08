@@ -1,7 +1,7 @@
 # Dress4Win
 
 ### Launching db-server
-1. Provision a Google Compute Engine (GCE) <br/><br/>
+1. Provision a Google Compute Engine (GCE) 
 2. SSH into the db-server. Switch as root user using sudo -s and below command to install MySQL Server. When prompted for password give a strong like P@ssW0rd2020
 apt update <br/>
 apt install mysql-server -y <br/>
@@ -16,7 +16,7 @@ apt install mysql-server -y <br/>
 
 ### Launching app-server
 
-1. Provision a Google Compute Engine (GCE) with below startup script. <br/><br/>
+1. Provision a Google Compute Engine (GCE) with below startup script
 apt update <br/>
 apt install -y git <br/>
 curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh <br/>

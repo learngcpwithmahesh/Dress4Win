@@ -3,8 +3,8 @@ var connection = mysql.createConnection({
   host     : '172.16.224.3',
   port     : '3306',
   user     : 'root',
-  password : 'demogcp',
-  database : 'jsp_eCommerce'
+  password : 'P@ssw0rd2020',
+  database : 'eCommerce'
 });
 
 connection.connect(function(err) {

@@ -31,5 +31,5 @@ cd Dress4Win <br/>
 npm install <br/>
 
 2. SSH into the app-server. Switch as root user using sudo -s and change the database IP address in database/config.js file <br/>
-3. Now, the Node JS app to run in daemon mode using forever start index.js <br/>
+3. Now, run the Node JS app to run in daemon mode using <em>forever start index.js </em> <br/>
 4. Use the external IP of app-server to access the Dress4Win App <br/>

@@ -11,7 +11,7 @@ apt install mysql-server -y <br/>
 4. Restart MySQL Service using systemctl restart mysql <br/>
 5. Logging to mysql using mysql -h 127.0.0.1 -u root -p  <br/>
 6. Create a database named eCommerce using CREATE DATABASE eCommerce <br/>
-7. Run this command GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'P@ssw0rd2020'; to allow mysql to be accessed from app-server <br/>
+7. Run this command GRANT ALL PRIVILEGES ON \*.\* TO 'root'@'%' IDENTIFIED BY 'P@ssw0rd2020'; to allow mysql to be accessed from app-server <br/>
 7. Exit mysql session <br/>
 8. Change directory to home directory using cd ~ and run git clone https://github.com/learngcpwithmahesh/Dress4Win.git  <br/>
 9. Change directory to Dress4Win/sql <br/>

@@ -7,12 +7,13 @@ apt update <br/>
 apt install mysql-server -y <br/>
 3. Change directory using cd /etc/mysql and remove binding network
 4. Restart MySQL Service using systemctl restart mysql
-5. Loging to mysql using mysql -h 127.0.0.1 -u root -p 
-6. Create a databased named eCommerce
+5. Logging to mysql using mysql -h 127.0.0.1 -u root -p 
+6. Create a databased named eCommerce & Run GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'P@ssw0rd2020'; to allow mysql to be accessed from app-server
 7. exit mysql session 
 8. Change directory to home directory using cd ~ and run git clone https://github.com/learngcpwithmahesh/Dress4Win.git 
 9. Change directory to Dress4Win/sql
 10. Create the table schema using mysql -h 127.0.0.1 -u root -p < ecommerce.sql
+11. 
 
 ### Launching app-server
 

@@ -1,12 +1,13 @@
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 --
 -- Database: `eCommerce`
 --
-CREATE DATABASE eCommerce;
 
-----------------------------------------------------------
+-- --------------------------------------------------------
+
 --
 -- Table structure for table `categories`
 --
@@ -37,8 +38,6 @@ CREATE TABLE `pages` (
   `title` varchar(1000) NOT NULL,
   `content` longtext NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
-
-----------------------------------------------------------
 
 --
 -- Table structure for table `products`

@@ -20,6 +20,7 @@ Credits & Source from: https://github.com/sendmail2krrish/eCommerce-site-using-N
 ### Launching app-server
 
 1. Provision a Google Compute Engine (GCE) with below startup script <br/>
+<b>
 apt update <br/>
 apt install -y git <br/>
 curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh <br/>
@@ -29,7 +30,7 @@ npm install -g forever <br/>
 git clone https://github.com/learngcpwithmahesh/Dress4Win.git <br/>
 cd Dress4Win <br/>
 npm install <br/>
-
+</b>
 2. SSH into the app-server. Switch as root user using sudo -s and change the database IP address in database/config.js file <br/>
 3. Now, run the Node JS app to run in daemon mode using <b>forever start index.js </b> <br/>
 4. Use the external IP of app-server to access the Dress4Win App <br/>
